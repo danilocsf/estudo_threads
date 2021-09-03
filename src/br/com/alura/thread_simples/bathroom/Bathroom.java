@@ -1,4 +1,4 @@
-package br.com.alura.bathroom;
+package br.com.alura.thread_simples.bathroom;
 
 public class Bathroom {
 

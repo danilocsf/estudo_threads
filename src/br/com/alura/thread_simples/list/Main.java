@@ -1,4 +1,4 @@
-package br.com.alura.list;
+package br.com.alura.thread_simples.list;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {

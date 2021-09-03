@@ -1,19 +1,18 @@
-package br.com.alura.bathroom;
+package br.com.alura.thread_simples.bathroom;
 
-public class TaskPee implements Runnable{
+public class TaskPoo  implements Runnable {
 
     Bathroom bathroom;
 
-    public TaskPee(Bathroom bathroom) {
+    public TaskPoo(Bathroom bathroom) {
         this.bathroom = bathroom;
     }
     @Override
     public void run() {
         try {
-            this.bathroom.pee();
+            this.bathroom.poo();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
-
 }

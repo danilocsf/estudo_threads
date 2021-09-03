@@ -1,4 +1,4 @@
-package br.com.alura.list;
+package br.com.alura.thread_simples.list;
 
 public class TaskAddElement implements Runnable {
 
